@@ -51,7 +51,7 @@ Complete [release notes](https://www.giacomovalli.com/openhdemg_software/release
 
 ## Support the project and cite our work
 
-If you find the *openhdemg software* useful, please consider giving [this repository a star ⭐](https://github.com/GiacomoValliPhD/openhdemg-software). It is a simple way to show your appreciation and help others discover the project.
+If you find the *openhdemg software* useful, please **consider giving this repository a star** ⭐. It is a simple way to show your appreciation and help others discover the project.
 
 If you use *openhdemg* in your research, please cite the original paper:
 
@@ -65,6 +65,6 @@ Have an idea to improve the *openhdemg software*? [Submit a feature request](htt
 
 ## Help and licence
 
-For help, consult the user manual or [open a GitHub issue](https://github.com/GiacomoValliPhD/openhdemg-software/issues/new/choose) using the provided issue template. Please complete the template with your software version, the module and operation involved, and the relevant error message or log.
+For help, consult the user manual or [open a GitHub issue](https://github.com/GiacomoValliPhD/openhdemg-software/issues/new?template=software_issue.yml) using the provided issue template. Please complete the template with your software version, the module and operation involved, and the relevant error message or log.
 
 Use of the compiled application is governed by its end-user licence agreement, shown at first launch and available from **Help > Show EULA**.
