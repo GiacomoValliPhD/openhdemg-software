@@ -1,0 +1,41 @@
+name: Feature request
+description: Suggest a new feature or improvement for the openhdemg software.
+title: "[Feature request]: "
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Please search the existing issues before opening a new request.
+        If the feature has already been proposed, add your use case to that issue.
+
+  - type: textarea
+    id: problem
+    attributes:
+      label: Problem or use case
+      description: Describe what you are trying to achieve and what is currently missing or difficult in your workflow.
+    validations:
+      required: true
+
+  - type: textarea
+    id: proposed-feature
+    attributes:
+      label: Proposed feature
+      description: Describe how you would like the software to behave and how you would use the feature.
+    validations:
+      required: true
+
+  - type: textarea
+    id: alternatives
+    attributes:
+      label: Alternatives considered
+      description: Describe any existing tools, workarounds, or other approaches you have considered.
+    validations:
+      required: false
+
+  - type: textarea
+    id: context
+    attributes:
+      label: Additional context and references
+      description: Add relevant examples, anonymised screenshots, or mockups. For a new analysis method, include links to relevant publications if available.
+    validations:
+      required: false

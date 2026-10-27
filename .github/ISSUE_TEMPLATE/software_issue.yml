@@ -1,0 +1,78 @@
+name: Software issue
+description: Report a bug or ask for help with the openhdemg software.
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Please check the manual matching your software version and search the existing issues first.
+        Include only anonymised information in logs, screenshots, and example files.
+
+  - type: input
+    id: software-version
+    attributes:
+      label: Software version
+      description: Enter the version from the release or application folder, including any beta suffix.
+      placeholder: V0.1.1
+    validations:
+      required: true
+
+  - type: input
+    id: windows-version
+    attributes:
+      label: Windows version
+      description: Include the Windows version (e.g., 10 or 11).
+      placeholder: Windows version
+    validations:
+      required: true
+
+  - type: dropdown
+    id: affected-area
+    attributes:
+      label: Affected module or area
+      multiple: true
+      options:
+        - Installation or startup
+        - BSS Decomposition
+        - BSS Cleaning
+        - MU Analyses
+        - Documentation or downloads
+        - Other / not sure
+    validations:
+      required: true
+
+  - type: textarea
+    id: description
+    attributes:
+      label: Problem or question
+      description: Describe what happened or what you need help with. For a bug, also explain what you expected to happen.
+    validations:
+      required: true
+
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to reproduce or actions tried
+      description: Include the operation or menu command and any relevant settings. For a help request, describe what you have tried so far.
+      placeholder: |
+        1. Open the module...
+        2. Load the file...
+        3. Run the operation...
+    validations:
+      required: true
+
+  - type: textarea
+    id: logs
+    attributes:
+      label: Error message or relevant logs
+      description: Paste the complete error message and relevant log section, if available. Only upload or paste anonymised logs; remove names, participant identifiers, identifying file paths, and other personal or confidential information first. When the interface opens, logs are available from Help > Show logs.
+      render: text
+    validations:
+      required: false
+
+  - type: textarea
+    id: context
+    attributes:
+      label: Additional context and attachments
+      description: If relevant, include the input file format, channel count, sampling frequency, and any custom load function. You can attach screenshots or a small anonymised example here.
+    validations:
+      required: false
